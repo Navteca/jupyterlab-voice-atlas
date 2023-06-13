@@ -1,18 +1,13 @@
 [build-system]
-requires = ["hatchling>=1.3.1", "jupyterlab~=3.1", "hatch-nodejs-version"]
+requires = ["hatchling>=1.4.0", "jupyterlab>=3.4.7,<4.0.0", "hatch-nodejs-version"]
 build-backend = "hatchling.build"
 
 [project]
 name = "jupyterlab_voiceatlas"
-description = "Voice Atlas Extension for JupyterLab"
-keywords = [
-    "jupyter",
-    "jupyterlab",
-    "jupyterlab-extension"
-]
-urls = {texzt = "https://navteca.com"}
-authors = [{name = "Navteca LLC", email = "info@navteca.com" }]
+description = "This is a JupyterLab extension that allows users to use Voice Atlas in JupyterLab and their notebooks."
 readme = "README.md"
+authors = [{name = "Navteca LLC", email = "info@navteca.com" }]
+urls = {text = "https://navteca.com"}
 license = { file = "LICENSE" }
 requires-python = ">=3.7"
 classifiers = [
